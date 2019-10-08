@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Остаток по кредиту SergeyPlotnikov.ru</title>
+</head>
+<body>
+<script>
+
+    var monthlyPayment = Math.round(+prompt("Введите ежемесячный платеж"));
+    var amountToPayFix = Math.round(monthlyPayment);
+    var amountToPay = Math.round(monthlyPayment);  //Сумма к оплате
+    var loanInterest = Math.round(+prompt("Введите процент по кредиту"));
+    var debtBalance = Math.round(+prompt("Введите остаток задолженности"));
+    /*var PercentageOfTheAmountPerMonth = Math.round(+prompt("Введите процент от суммы в месяц"));*/
+    var interestPerMonth = Math.round(funcInterestPerMonth());//Получаем процент за месяц
+    var amountWithoutInterest = Math.round(funcAmountWithoutInterest());//сумма без процента
+    var debtAm = funcDebtAmount();
+
+    function funcInterestPerMonth() {
+        return interestPerMonth = debtBalance / 100 * loanInterest / 365 * 31;
+    }
+
+    function funcDebtAmount() {
+        return debtBalance = debtBalance - (amountToPay - interestPerMonth);
+    }
+
+    function funcAmountWithoutInterest() {
+        return monthlyPayment = monthlyPayment - interestPerMonth;
+    }
+
+    function funcAmountWithoutInterest() {
+        return amountWithoutInterest = amountToPayFix - interestPerMonth;
+    }
+
+    var a = 1;
+
+    while (debtBalance > 0) {
+        document.write("Платеж № " + a + " Сумма платежа: " + amountToPayFix + "руб. " + " Остаток по кредиту: " + debtBalance
+            + "руб. " +  " Основной долг: " + amountWithoutInterest + "руб. " +  " Процент: " + interestPerMonth + "руб. " +  "<br\>");
+        debtBalance = Math.round(funcDebtAmount());
+        interestPerMonth = Math.round(funcInterestPerMonth());
+        amountWithoutInterest = Math.round(funcAmountWithoutInterest());
+        a++;
+    }
+
+</script>
+<hr>
+</body>
+</html>

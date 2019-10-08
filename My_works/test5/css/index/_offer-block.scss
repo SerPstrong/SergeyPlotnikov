@@ -1,0 +1,119 @@
+.offer-block {
+  margin: 113px 0 97px 0;
+}
+
+.offer-block__content {
+  width: 100%;
+  height: 530px;
+  display: flex;
+  position: relative;
+}
+
+.offer-block__left {
+  width: 767px;
+  background-image: url("../images/offer-block.jpg");
+  position: relative;
+}
+
+.offer-block__right {
+  width: 373px;
+  background-color: #222224;
+}
+
+.offer-block__offer {
+  position: absolute;
+  margin: 146px 0 0 39px;
+}
+
+.offer-block__big-text {
+  color: #ffffff;
+  font-size: 53.62px;
+  font-weight: 700;
+  line-height: 0;
+  margin: 0;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 146px;
+  left: 40px;
+}
+
+.offer-block__big-text_span {
+  color: #f16d7f;
+  font-size: 53.62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0 15px;
+}
+
+.offer-block__small-text {
+  color: #ffffff;
+  font-size: 32.17px;
+  font-weight: 700;
+  line-height: 0;
+  margin: 46px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 146px;
+  left: 40px;
+}
+
+.offer-block__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 48px 35px;
+  height: 433px;
+}
+
+.offer-block-column__steck {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.offer-block-column-img {
+  width: 45px;
+  height: 100%;
+}
+
+.offer-block-column__text {
+  width: 219px;
+}
+
+.offer-block-column__big-text {
+  margin: 6px 0 0 0;
+  color: #fbfbfb;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.offer-block-column__small-text {
+  margin: 17px 0 0 0;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@keyframes snow {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: -2301px 1587px, -1534px 1058px, -3068px 1058px;
+  }
+}
+
+.snow-back {
+  background-image: url(../images/snow/snow1.png), url(../images/snow/snow2.png), url(../images/snow/snow3.png);
+  height: 100%;
+  animation: snow 240s linear infinite;
+}
+
+.offer-block__left_a {
+  background-color: transparent;
+}

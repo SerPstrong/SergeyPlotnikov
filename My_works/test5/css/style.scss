@@ -1,0 +1,55 @@
+@import 'normalize';
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'double-block';
+@import 'bread-crumbs-block';
+@import 'index/nav';
+@import 'index/bunner';
+@import 'index/slide-people';
+@import 'index/featured-items';
+@import 'index/offer-block';
+@import 'product/double-block-right';
+@import 'product/product-bottom';
+@import 'product/double-block-left';
+@import 'shoppingcart/table-block';
+@import 'shoppingcart/shopping-block';
+@import 'shoppingcart/grand-total-block';
+@import 'single-page/slide-block';
+@import 'single-page/collection';
+@import 'single-page/like-sale';
+@import 'checkout/register';
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: $pink;
+  transition: color 0.2s;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  flex: 1;
+}

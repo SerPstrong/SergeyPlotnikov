@@ -1,0 +1,195 @@
+/*register*/
+
+.register-block {
+  margin: 90px 0;
+}
+
+.register-block-flex {
+  display: flex;
+  margin: 20px 0 40px 0;
+}
+
+.register-block__left {
+  width: 50%;
+  margin: 0px 0 0 27px;
+}
+
+.register-block__right {
+  width: 50%;
+}
+
+.register-list {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.register-list__li {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.register-list details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.register {
+  margin: 0 0 0 0;
+}
+
+.register__big-text {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.register__small-text {
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px 0 0 0;
+}
+
+.reg-button {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #eaeaea;
+  padding: 19px 54px;
+  display: inline-block;
+  background-color: #fff;
+  transition: color 0.2s, border 0.2s;
+
+  &:hover {
+    border: 1px solid $pink;
+    cursor: pointer;
+    color: $pink;
+  }
+}
+
+.reg-button-left {
+  margin: 38px 0 0 0;
+}
+
+.reg-button-right {
+  margin: 19px 0 0 0;
+}
+
+.register__form_p {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  .register__input {
+    margin: 0 14px 0 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #555555;
+  }
+}
+
+.register-details {
+  margin: 0 0 40px 0;
+  padding: 0 0 40px 0;
+  border-bottom: solid 1px #e8e8e8;
+}
+
+.register-list__li:hover {
+  cursor: pointer;
+}
+
+/*/register*/
+
+/*login*/
+.login-form {
+  margin: 4px 0 0 0;
+}
+
+.login-label-block {
+  margin: 23px 0 0 0;
+}
+
+.login {
+  max-width: 390px;
+}
+
+.login-big-text {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.login-small-text {
+  color: #b3b2b2;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px 0 0 0;
+}
+
+.required {
+  color: red;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+.login-label {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.login-form-control {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  margin: 16px 0 0 0;
+}
+
+.required-fields {
+  color: #ff0d0d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin: 11px 0 0 0;
+}
+
+.required-fields_span {
+  font-size: 9px;
+  vertical-align: super;
+}
+
+.forgot-pass {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+/*/login*/
+
+.register__form_margin {
+  margin: 34px 0 34px 0;
+}
+
+.fa-angle-double-right_p {
+  margin: 0 4px 0 0;
+}
+
+.login-form-control[type="email"],[type="password"] {
+  padding: 1px 20px;
+}

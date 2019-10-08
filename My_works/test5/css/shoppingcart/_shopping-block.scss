@@ -1,0 +1,33 @@
+.shopping-block {
+  margin: 44px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grand-total-block__left_a {
+  display: block;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: solid 1px #eaeaea;
+  padding: 20px 40px;
+
+  &:hover {
+    border: solid 1px $pink;
+  }
+}
+
+.grand-total-block__right_a {
+  display: block;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: solid 1px #eaeaea;
+  padding: 20px 40px;
+
+  &:hover {
+    border: solid 1px $pink;
+  }
+}

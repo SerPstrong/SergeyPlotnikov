@@ -1,0 +1,35 @@
+.bread-crumbs-block {
+  background-color:  #f8f3f4;
+  height: 148px;
+}
+
+.bread-crumbs-block-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.bread-crumbs-block__big-text {
+  color:  $pink;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.bread-crumbs_a {
+  color:  #636363;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.bread-crumbs-a_pink {
+  color:  #f16d7f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}

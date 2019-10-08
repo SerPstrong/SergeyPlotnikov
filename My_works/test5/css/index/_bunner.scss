@@ -1,0 +1,40 @@
+.bunner {
+  height: 614px;
+  background-color: #e8e8e8;
+}
+
+.bunner__img {
+  background-image: url("../images/bunner-men.jpg");
+  height: 100%;
+  background-position: -217px -50px;
+}
+
+.bunner__big-text {
+  color:  #222222;
+  font-size: 59.95px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 43px;
+  margin: 0 0 0 12px;
+}
+
+.bunner__small-text {
+  color:  #222222;
+  font-size: 39.96px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 29px;
+  margin: 17px 0 0 12px;
+}
+
+.bunner__small-text_span {
+  color:  #f16d7f;
+  font-size: 39.96px;
+  font-weight: 900;
+}
+
+.bunner__text {
+  margin-top: 224px;
+  float: left;
+  border-left: solid 12px #f16d7f;
+}

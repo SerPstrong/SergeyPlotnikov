@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Банковская программа</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<div id="header">
+    <ul id="nav">
+        <li>
+            <a href="http://sergeyplotnikov.ru" title="Вернуться на главную страницу">Главная</a>
+        </li>
+        <li>
+            <a href="#" title="JavaScript programm">JS</a>
+            <ul>
+                <li><a href="puzzles.html">Загадки</a></li>
+                <li><a href="contribution.html">Рассчитать процент по вкладу</a></li>
+                <li><a href="converter.html">Конвертер валют</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" title="Что мы можем для вас сделать">Макеты</a>
+            <ul>
+                <li><a href="../My_works/test1/index.html" target="_blank">Шаблон1</a></li>
+                <li><a href="../My_works/test2/index.html" target="_blank">Шаблон2</a></li>
+                <li><a href="../My_works/test3/index.html" target="_blank">Шаблон3</a></li>
+                <li><a href="../My_works/test4/index.html" target="_blank">Шаблон4</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://github.com/SerPstrong/" target="_blank" title="My github">Github</a>
+        </li>
+    </ul>
+
+</div>
+
+<div id="content">
+    <h1>Website of Sergey Plotnikov's portfolio</h1>
+    <div id="center">
+        <img src="../img/plotnikov.jpg" alt="Сергей Плотников">
+
+        <div id="box_text">
+            <p​>
+            Добрый день. Меня зовут Сергей.
+            </p​>
+            <p​>
+            На этом сайте вы сможете сыграть в игры, которые я написал:
+            </p​><br>
+            <a href="puzzles.html">Загадки</a>
+            <a href="contribution.html">Рассчитать процент по вкладу</a>
+            <a href="converter.html">Конвертер валют</a>
+            <br​>
+        </div>
+
+        <div class="cen">
+            <script>
+
+                //2-Игра в загадки
+                //1-загадка
+                var trues = 0;
+                var otvet = 21;
+                var usersum = +prompt("Сколько будет 3*7");
+                if (otvet == usersum) {
+                    alert("Поздравляем, все верно!");
+                    trues++;
+                }
+                else {
+                    alert("Неверно!");
+                }
+
+                //2-загадка
+                var otvet2 = 2;
+                var usersum2 = +prompt("Сколько будет 1+1");
+                if (otvet2 == usersum2) {
+                    alert("Поздравляем, все верно!");
+                    trues++;
+                }
+                else {
+                    alert("Неверно!");
+                }
+
+                //3-загадка
+                var otvet3 = 3;
+                var usersum3 = +prompt("Сколько будет 6/2");
+                if (otvet3 == usersum3) {
+                    alert("Поздравляем, все верно!");
+                    trues++;
+                }
+                else {
+                    alert("Неверно!");
+                }
+                alert("Правильных ответов = " + trues);
+
+            </script>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="footer__container">
+        <div class="footer__phone">
+            <i class="fas fa-phone"></i> +7 (950) 198-84-05 , <i class="far fa-envelope-open"></i> i@sergeyplotnikov.ru
+        </div>
+        Copyright © 2016 <a href="http://sergeyplotnikov.ru">Все права защищены</a>
+        <a class="footer_social" href="https://vk.com/serpstrong" target="_blank"><i class="fab fa-vk"></i></a>
+        <a class="footer_social" href="https://www.facebook.com/serpstrong" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+        <a class="footer_social" href="https://twitter.com/serplstrong" target="_blank"><i
+                class="fab fa-twitter"></i></a>
+        <a class="footer_social" href="https://www.instagram.com/serpstrong" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+        <a class="footer_social" href="https://github.com/SerPstrong/" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+.navigation__menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+
+.navigation__menu-link {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding: 20px 25px;
+  border-bottom: solid 3px transparent;
+
+}
+
+.navigation__menu-list {
+  position: relative;
+}
+
+.navigation__menu-list:hover .drop-box {
+  display: flex;
+}
+
+.drop-heading {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 0;
+  padding-bottom: 8px;
+}
+
+.drop-heading-margin-top {
+  margin-top: 13px;
+}
+
+.drop-box {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  position: absolute;
+  top: 53px;
+  left: -5px;
+  display: none;
+  z-index: 1;
+}
+
+.drop-box:before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -7px;
+  left: 41px;
+  transform: rotate(45deg);
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+}
+
+.drop-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.drop-link {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  line-height: 28px;
+}
+
+.drop-flex {
+  width: 235px;
+  margin-right: 30px;
+}
+
+.drop-flex:last-child {
+  width: 235px;
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+.drop-box-banner-menu {
+  position: relative;
+  width: 255px;
+  height: 118px;
+  bottom: -20px;
+  right: 20px;
+}
+
+.img-menu-bunner {
+  width: 255px;
+  height: 118px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.drop-box-banner-menu__text {
+  position: absolute;
+  bottom: 7px;
+  right: 12px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  z-index: 1;
+  margin: 0;
+}

@@ -1,0 +1,592 @@
+# Translation of Themes - Deck in Russian
+# This file is distributed under the same license as the Themes - Deck package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-01 09:01:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Deck\n"
+
+#. Theme Name of the plugin/theme
+msgid "Deck"
+msgstr "Deck"
+
+#. Description of the plugin/theme
+msgid "A uniquely crafted WordPress theme for creatives and individuals. Stay in the creative flow with this minimal, yet boldly beautiful theme."
+msgstr "Уникальная тема WordPress для объявлений и индивидуальных лиц. Оставайтесь в креативе с этой минимальной, но красивой темой."
+
+#: deck-upsells/class-customize.php:76
+msgid "Deck Pro"
+msgstr "Deck Pro"
+
+#: deck-upsells/class-customize.php:77
+msgid "Go Pro"
+msgstr "Купить PRO"
+
+#: includes/widgets/widget-video.php:128
+msgid "Description:"
+msgstr "Описание:"
+
+#. Template Name of the plugin/theme
+msgid "Page With Left Sidebar"
+msgstr "Страница с левым сайдбаром"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#: single.php:55
+msgid "Sorry, nothing to display"
+msgstr "Извините, ничего не видно"
+
+#: includes/widgets/widget-video.php:123
+msgid "Embed Code:"
+msgstr "Код для вставки:"
+
+#: includes/widgets/widget-video.php:109
+msgid "850 Meter Animated Film"
+msgstr "850-мегапиксельный анимационный фильм"
+
+#: includes/widgets/widget-video.php:108
+msgid "Place embedded code"
+msgstr "Разместить встроенный код"
+
+#: includes/widgets/widget-social.php:283
+msgid "RSS Feed Link: "
+msgstr "RSS-канал:"
+
+#: includes/widgets/widget-social.php:278
+msgid "Email Link: "
+msgstr "Электронная почта:"
+
+#: includes/widgets/widget-social.php:273
+msgid "Skype User ID: "
+msgstr "ID пользователя в Skype:"
+
+#: includes/widgets/widget-social.php:268
+msgid "Github Link: "
+msgstr "Github:"
+
+#: includes/widgets/widget-social.php:263
+msgid "LinkedIn Link: "
+msgstr "LinkedIn:"
+
+#: includes/widgets/widget-social.php:253
+msgid "YouTube Link: "
+msgstr "YouTube:"
+
+#: includes/widgets/widget-social.php:258
+msgid "Flickr Link: "
+msgstr "Flickr:"
+
+#: includes/widgets/widget-social.php:248
+msgid "Dribbble Link: "
+msgstr "Dribbble:"
+
+#: includes/widgets/widget-social.php:243
+msgid "Vimeo Link: "
+msgstr "Vimeo:"
+
+#: includes/widgets/widget-social.php:238
+msgid "Instagram Link: "
+msgstr "Instagram:"
+
+#: includes/widgets/widget-social.php:233
+msgid "Tumblr Link: "
+msgstr "Tumblr:"
+
+#: includes/widgets/widget-social.php:228
+msgid "Pinterest Link: "
+msgstr "Pinterest:"
+
+#: includes/widgets/widget-social.php:223
+msgid "Google+ Link: "
+msgstr "Google+:"
+
+#: includes/widgets/widget-social.php:208 includes/widgets/widget-video.php:118
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: includes/widgets/widget-social.php:126
+msgid "Github"
+msgstr "Github"
+
+#: includes/widgets/widget-social.php:122
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/widgets/widget-social.php:118
+msgid "flickr"
+msgstr "flickr"
+
+#: includes/widgets/widget-social.php:114
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/widgets/widget-social.php:110
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: includes/widgets/widget-social.php:106
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/widgets/widget-social.php:102
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/widgets/widget-social.php:98
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/widgets/widget-social.php:184
+msgid "Social Links"
+msgstr "Социальные ссылки:"
+
+#: includes/widgets/widget-social.php:138
+msgid "Feed"
+msgstr "Обратная связь"
+
+#: includes/widgets/widget-social.php:134
+msgid "Email"
+msgstr "Email"
+
+#: includes/widgets/widget-social.php:185
+msgid "Facebook Links"
+msgstr "Facebook-ссылки"
+
+#: includes/widgets/widget-social.php:186
+msgid "twitter Links"
+msgstr "twitter-ссылки"
+
+#: includes/widgets/widget-social.php:187
+msgid "google Links"
+msgstr "google-ссылки"
+
+#: includes/widgets/widget-social.php:130
+msgid "Skype Profile Name"
+msgstr "Имя пользователя в Skype"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: searchform.php:10
+msgid "To search, type and hit enter."
+msgstr "Чтобы выполнить поиск, введите и нажмите Enter."
+
+#: search.php:52
+msgid "Your search did not match any entries"
+msgstr "Поиск не нашёл ни одной записи."
+
+#: includes/widgets/widget-video.php:107
+msgid "Featured Video"
+msgstr "Рекомендуемые видео"
+
+#: includes/widgets/widget-video.php:35
+msgid "Deck: Featured Video"
+msgstr "Deck: Рекомендуемые видео"
+
+#: includes/widgets/widget-social.php:218
+msgid "Twitter Link: "
+msgstr "Твиттер"
+
+#: includes/widgets/widget-social.php:213
+msgid "Facebook Link: "
+msgstr "Facebook:"
+
+#: includes/widgets/widget-social.php:199
+msgid "feed Links"
+msgstr "ссылки на RSS"
+
+#: includes/widgets/widget-social.php:198
+msgid "email Links"
+msgstr "ссылки на электронные почты"
+
+#: includes/widgets/widget-social.php:197
+msgid "skype Links"
+msgstr "ссылки на Skype"
+
+#: includes/widgets/widget-social.php:196
+msgid "github Links"
+msgstr "ссылки на Github"
+
+#: includes/widgets/widget-social.php:94
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/widgets/widget-social.php:90
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/widgets/widget-social.php:86
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: includes/widgets/widget-social.php:82
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/widgets/widget-social.php:195
+msgid "linkedin Links"
+msgstr "ссылки на LinkedIn"
+
+#: includes/widgets/widget-social.php:194
+msgid "flickr Links"
+msgstr "ссылки на Flickr"
+
+#: includes/widgets/widget-social.php:193
+msgid "youtube Links"
+msgstr "ссылки на YouTube"
+
+#: includes/widgets/widget-social.php:192
+msgid "dribbble Links"
+msgstr "ссылки на Dribbble"
+
+#: includes/widgets/widget-social.php:191
+msgid "vimeo Links"
+msgstr "ссылки на Vimeo"
+
+#: includes/widgets/widget-social.php:190
+msgid "instagram Links"
+msgstr "ссылки на Instagram"
+
+#: includes/widgets/widget-social.php:189
+msgid "tumblr Links"
+msgstr "ссылки на Tumblr"
+
+#: includes/widgets/widget-social.php:188
+msgid "pinterest Links"
+msgstr "ссылки на Pinterest"
+
+#: includes/widgets/widget-social.php:40 includes/widgets/widget-video.php:38
+msgid "Display a featured YouTube or Vimeo video."
+msgstr "Отображение видео с YouTube или Vimeo."
+
+#: includes/widgets/widget-social.php:37
+msgid "Deck: Social Links"
+msgstr "Deck: социальные ссылки"
+
+#: includes/deck-homepage-functions.php:255
+msgid "Read more"
+msgstr "Читать далее"
+
+#: includes/deck-homepage-functions.php:190
+msgid "Clients"
+msgstr "Клиенты"
+
+#: content-gallery.php:21 content.php:27
+msgid " by "
+msgstr "от"
+
+#: comments.php:18 comments.php:36
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#: comments.php:14 content-gallery.php:24 content.php:30
+msgid "% Comments"
+msgstr "Комментарии: %"
+
+#: comments.php:14 content-gallery.php:24 content.php:30
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: comments.php:14 content-gallery.php:24 content.php:30
+msgid "0 Comments"
+msgstr "0 комментариев"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: comments.php:55
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: comments.php:53
+msgid "Leave a reply"
+msgstr "Оставить ответ"
+
+#: comments.php:54
+msgid "Leave a reply to %s"
+msgstr "Оставить ответ к «%s»"
+
+#: comments.php:50
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out</a>"
+msgstr "Войдите как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из этой учётной записи\">Выйти</a>"
+
+#: comments.php:49
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a>, чтобы опубликовать комментарий."
+
+#: archive.php:36 functions.php:342 search.php:42
+msgid "Newer Posts"
+msgstr "Новые записи"
+
+#: archive.php:35 functions.php:341 search.php:41
+msgid "Older Posts"
+msgstr "Старые записи"
+
+#: 404.php:24
+msgid "Well, this is embarrassing. We can't seem to locate the page you're looking for. <br>Bad link? Mistyped address? We're not exactly sure. <br><br>You can always search for the page below."
+msgstr "Ну, это даже неудобно. Мы не можем найти нужную вам страницу.<br>Перешли по плохой ссылке? По ошибочному адресу? Мы не совсем уверены.<br><br>Вы всегда можете перейти на любую страницу, которая указана ниже."
+
+#: 404.php:20
+msgid "<span class=\"big\">404</span>"
+msgstr "<span class=\"big\">404</span>"
+
+#: includes/deck-homepage-functions.php:255
+msgid "Read more about"
+msgstr "Читать далее про"
+
+#: includes/deck-homepage-functions.php:143
+msgid "View more of"
+msgstr "Посмотреть ещё"
+
+#: includes/deck-homepage-functions.php:95
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: includes/deck-homepage-functions.php:56
+msgid "View our work"
+msgstr "Посмотреть нашу работу"
+
+#: includes/customizer.php:336
+msgid "Hide Footer"
+msgstr "Скрыть подвал"
+
+#: includes/customizer.php:322
+msgid "Footer Setting"
+msgstr "Настройки подвала"
+
+#: includes/customizer.php:294
+msgid "Blog Main Heading"
+msgstr "Главная рубрика блога"
+
+#: includes/customizer.php:280
+msgid "Check this box to show blog post section"
+msgstr "Установите этот флажок, чтобы показать раздел записей блога"
+
+#: includes/customizer.php:268
+msgid "Blog Post Section"
+msgstr "Раздел записей в блоге "
+
+#: includes/customizer.php:267
+msgid "This section renders its content just below client showcase section"
+msgstr "Этот раздел отображает своё содержимое чуть ниже показываемой клиенту витрине"
+
+#: functions.php:234
+msgid "Edit"
+msgstr "Изменить"
+
+#: functions.php:229
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: functions.php:151
+msgid "Footer Sidebar"
+msgstr "Область виджетов подвала"
+
+#: functions.php:142
+msgid "Page Left Sidebar"
+msgstr "Левая область виджетов"
+
+#: functions.php:133
+msgid "Page Right Sidebar"
+msgstr "Правая область виджетов"
+
+#: functions.php:124
+msgid "Blog Left Sidebar"
+msgstr "Левая область виджетов блога"
+
+#: includes/customizer.php:310
+msgid "Enter Text for Sub heading of Blog section"
+msgstr "Введите текст для подзаголовка блога"
+
+#: includes/customizer.php:309
+msgid "Blog Sub Heading"
+msgstr "Подзаголовок блога"
+
+#: includes/customizer.php:295
+msgid "Enter Text for main heading of Blog section"
+msgstr "Введите текст для основного заголовка блога"
+
+#: includes/customizer.php:256
+msgid "Select or upload the image you would like to appear here. (980px wide, transparent background )"
+msgstr "Выберите или загрузите изображение, которое вы хотели бы увидеть здесь. (980 писелей, широкий прозрачный фон)"
+
+#: includes/customizer.php:254
+msgid "Client Show Case Image"
+msgstr "Изображение для клиента на витрине"
+
+#: includes/customizer.php:241
+msgid "Enter Text for main heading of client section"
+msgstr "Введите текст для основного заголовка раздела клиента"
+
+#: includes/customizer.php:240
+msgid "Client Main Heading"
+msgstr "Основной раздел клиента"
+
+#: includes/customizer.php:226
+msgid "Check this box to show client showcase section"
+msgstr "Установите этот флажок, чтобы показывать раздел для демонстрации клиенту"
+
+#: includes/customizer.php:214
+msgid "Client Showcase Section"
+msgstr "Раздел витрины клиенту"
+
+#: includes/customizer.php:213
+msgid "This section renders its content just below text portfolio section"
+msgstr "Этот раздел отображает его содержимое чуть ниже раздела текстового портфолио"
+
+#: includes/customizer.php:200
+msgid "Choose Category To Make Portfolio"
+msgstr "Выберите рубрику для создания портфолио"
+
+#: functions.php:115
+msgid "Blog Right Sidebar"
+msgstr "Правая область виджетов блога"
+
+#: functions.php:78
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: functions.php:77
+msgid "Header Menu"
+msgstr "Меню верха"
+
+#: footer.php:39
+msgid "StyledThemes"
+msgstr "StyledThemes"
+
+#: footer.php:38
+msgid "Deck WordPress Theme by"
+msgstr "WordPress-тема «Deck» от"
+
+#: content-gallery.php:41 content.php:48
+msgid "Tagged with"
+msgstr "Помечены"
+
+#: content-gallery.php:39 content.php:45
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: content-gallery.php:23 content.php:29
+msgid " with "
+msgstr "с"
+
+#: includes/customizer.php:189
+msgid "Enter Text for Sub heading of portfolio section"
+msgstr "Введите текст для подзаголовка раздела портфолио"
+
+#: includes/customizer.php:188
+msgid "Portfolio Sub Heading"
+msgstr "Подзаголовок для портфолио"
+
+#: includes/customizer.php:174
+msgid "Enter Text for main heading of portfolio section"
+msgstr "Введите текст для основного заголовка портфолио"
+
+#: includes/customizer.php:173
+msgid "Portfolio Main Heading"
+msgstr "Основой заголовок портфолио"
+
+#: includes/customizer.php:159
+msgid "Check this box to show portfolio section"
+msgstr "Установите этот флажок, чтобы отобразить раздел для портфолио"
+
+#: includes/customizer.php:147
+msgid "Portfolio Section"
+msgstr "Раздел для портфолио"
+
+#: includes/customizer.php:146
+msgid "This section renders its content just below text column section"
+msgstr "Этот раздел отображает его содержимое чуть ниже текстового столбца"
+
+#: includes/customizer.php:134
+msgid "Select Category to show posts in Featured Section"
+msgstr "Выберите рубрику, чтобы показывать записи в избранном разделе"
+
+#: includes/customizer.php:132
+msgid "Choose Featured Post From Category"
+msgstr "Выберите избранные записи из рубрики"
+
+#: includes/customizer.php:122
+msgid "Featured Post"
+msgstr "Избранная запись"
+
+#: includes/customizer.php:109
+msgid "Select the page to display in billboard section"
+msgstr "Выберите страницу для отображения в разделе рекламного щита"
+
+#: includes/customizer.php:108
+msgid "Billboard Page"
+msgstr "Рекламный щит"
+
+#: includes/customizer.php:98
+msgid "Billboard Section"
+msgstr "Раздел рекламного щита"
+
+#: includes/customizer.php:88
+msgid "Changes the home page settings"
+msgstr "Изменение настроек главной страницы"
+
+#: includes/customizer.php:87
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: includes/customizer.php:72
+msgid "Blog Full Width &amp; no Sidebars"
+msgstr "Блог с полной шириной — нет областей виджетов"
+
+#: includes/customizer.php:71
+msgid "Blog with Left Sidebar"
+msgstr "Блог с левой областью виджетов"
+
+#: includes/customizer.php:70
+msgid "Blog with Right Sidebar"
+msgstr "Блог с правой областью виджетов"
+
+#: includes/customizer.php:65
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: includes/customizer.php:54
+msgid "Basic Setting"
+msgstr "Базовая настройка"
+
+#: includes/customizer.php:41
+msgid "Link & Accent Color"
+msgstr "Цвет ссылок и акцентов"
+
+#: includes/category-dropdown.php:22
+msgid "&mdash; Choose Category &mdash;"
+msgstr "&mdash; Выберите рубрику &mdash;"
+
+#: header-meta.php:33
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: header-meta.php:29
+msgid "Search results for"
+msgstr "Результаты поиска для"
+
+#: functions.php:249
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#. Theme URI of the plugin/theme
+msgid "https://styledthemes.com/free-themes/deck-wordpress-theme/"
+msgstr "https://styledthemes.com/free-themes/deck-wordpress-theme/"
+
+#. Author URI of the plugin/theme
+msgid "https://styledthemes.com/"
+msgstr "https://styledthemes.com/"
+
+#. Author of the plugin/theme
+msgid "Styled Themes"
+msgstr "Styled Themes"
