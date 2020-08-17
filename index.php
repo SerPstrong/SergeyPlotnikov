@@ -36,13 +36,13 @@
         <li>
             <a href="#" title="Что мы можем для вас сделать">Макеты</a>
             <ul>
-                <li><a href="https://serpstrong.github.io/kordon" target="_blank">Шаблон1</a></li>
-                <li><a href="My_works/test1/index.html" target="_blank">Шаблон2</a></li>
-                <li><a href="My_works/test2/index.html" target="_blank">Шаблон3</a></li>
-                <li><a href="My_works/test3/index.html" target="_blank">Шаблон4</a></li>
-                <li><a href="My_works/test4/index.html" target="_blank">Шаблон5</a></li>
-                <li><a href="My_works/test5/index.html" target="_blank">Шаблон6</a></li>
-                <li><a href="My_works/test6/index.html" target="_blank">Шаблон7</a></li>
+                <li><a href="My_works/test1/index.html" target="_blank">Шаблон1</a></li>
+                <li><a href="My_works/test2/index.html" target="_blank">Шаблон2</a></li>
+                <li><a href="My_works/test3/index.html" target="_blank">Шаблон3</a></li>
+                <li><a href="My_works/test4/index.html" target="_blank">Шаблон4</a></li>
+                <li><a href="My_works/test5/index.html" target="_blank">Шаблон5</a></li>
+                <li><a href="My_works/test6/index.html" target="_blank">Шаблон6</a></li>
+                <li><a href="My_works/test7/index.html" target="_blank">Шаблон7</a></li>
             </ul>
         </li>
         <li>
@@ -76,7 +76,7 @@
 
     </div>
 
-    <div class="flex_frame">
+    <div class="flex_frame" style="display: none">
         <div class="frame_wrap">
             <iframe class="frame" src="https://serpstrong.github.io/kordon"></iframe>
         </div>
@@ -108,7 +108,7 @@
                                                                                   href="tel:+7 (999) 563-71-98">+7 (999)
                 563-71-98</a></div>
             <div class="footer-container__block"><i class=" far fa-envelope-open
-        "></i> <a class="footer-container__contact" href="mailto:ommuts@gmail.com">ommuts@gmail.com</a></div>
+        "></i> <a class="footer-container__contact" href="mailto:segap@segap.ru">segap@segap.ru</a></div>
         </div>
         Copyright ©
         <div class="date-footer">ЗАГРУЗКА...</div>
